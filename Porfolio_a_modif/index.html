@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="script.js"></script>
+    <title>Leny | Portfolio - BTS SIO </title>
+</head>
+
+<body>
+
+    <header>
+        <a href="index.html" class="logo">Willo.dev</a>
+        <ul class="navbar">
+            <li><a href="#accueil" class="active">Accueil</a></li>
+            <li><a href="#etudes">Études</a></li>
+            <li><a href="#projets">Projets</a></li>
+            <li><a href="#veille">Veille Technologique</a></li>
+
+        </ul>
+    </header>
+    <section id="accueil" class="bannier">
+        <img src="img/fond.png" alt="fond" class="fond">
+        <div class="boite1">
+            <h1>BONJOUR</h1>
+            <p>Je suis un étudiant de 20 ans<br>qui tente d'avoir la moyenne</p>
+            <a href="ressources/CV_Lény_Gérance.pdf">Mon CV</a>
+            <div class="code">
+                <img src="img/html_icon.png" alt="html">
+                <img src="img/css_icon.png" alt="css">
+                <img src="img/javascript_icon.png" alt="Js">
+                <img src="img/php_icon.png" alt="php">
+                <img src="img/angular_icon.png" alt="Angular">
+                <img src="img/python_icon.png" alt="Python">
+            </div>
+        </div>
+        <img src="img/hi-removebg-preview.png" alt="moi" class="moi">
+    </section>
+
+    <section id="etudes" class="etude">
+        <h1>ETUDES</h1>
+        <div class="box">
+            <h3>CURSUS SCOLAIRE</h3>
+            <div class="list">
+                <div class="imgBx">
+                    <img src="img/Lycee_Leonard.jpg">
+                </div>
+                <div class="content">
+                    <h2 class="date"><small>Depuis </small>2022</h2>
+                    <h4>BREVET TECHNICIEN SUPÉRIEUR EN SERVICES INFORMATIQUES AUX ORGANISATIONS (BTS SIO)</h4>
+                    <p>LYCÉE LÉONARD DE VINCI</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="imgBx">
+                    <img src="img/Lycee_Simone.jpg">
+                </div>
+                <div class="content">
+                    <h2 class="date"><small>De </small>2020 <small>à</small> 2022</h2>
+                    <h4>BACCALAURÉAT EN MÉTIER DE L'ÉLECTRICITÉ ET DE CES ENVIRONNEMENTS CONNECTÉS (MELEC)</h4>
+                    <p> LYCÉE POLYVALENT SIMONE VEIL</p>
+                </div>
+            </div>
+            <h3>EXPERIENCES / STAGES PROFESSIONNEL</h3>
+            <div class="list">
+                <div class="imgBx">
+                    <img src="img/Omac.jpg">
+                </div>
+                <div class="content">
+                    <h2 class="date"><small>De Decembre </small>2023 <small>à Février</small> 2024</h2>
+                    <h4>2ème STAGE INFORMATICIEN (BTS SIO)</h4>
+                    <p>OFFICE MUNICIPAL D'ANIMATION DE LA CITÉ (OMAC)</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="imgBx">
+                    <img src="img/Omac.jpg">
+                </div>
+                <div class="content">
+                    <h2 class="date"><small>De Mai </small>2023 <small>à Juin</small> 2023</h2>
+                    <h4>STAGE INFORMATICIEN (BTS SIO)</h4>
+                    <p>OFFICE MUNICIPAL D'ANIMATION DE LA CITÉ (OMAC)</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="imgBx">
+                    <img src="img/Logo_stage2.jpg">
+                </div>
+                <div class="content">
+                    <h2 class="date"><small>De Novembre </small>2021 <small>à Janvier</small> 2022</h2>
+                    <h4>STAGE ELECTROTECHNITIEN (MELEC)</h4>
+                    <p>TERELEC</p>
+                </div>
+            </div>
+            <div class="list">
+                <div class="imgBx">
+                    <img src="img/Logo_stage.jpg">
+                </div>
+                <div class="content">
+                    <h2 class="date"><small>De Janvier </small>2021 <small>à Mars</small> 2021</h2>
+                    <h4>STAGE ELECTROTECHNITIEN (MELEC)</h4>
+                    <p>ALLIANCE SYSTEMS</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="projets">
+        <h1>PROJETS</h1>
+
+        <div class="container">
+            <div class="slider">
+
+                <input type="radio" class="radio" name="image" id="radio-1" checked>
+                <input type="radio" class="radio" name="image" id="radio-2">
+                <input type="radio" class="radio" name="image" id="radio-3">
+
+                <div class="slide" id="slide-1"><!--essaye de rajouter un lien (a) sur chaque image ou texte-->
+                    <img class="image_img" src="img/Desert_large.jpg" alt="">
+                    <div class="titre">Virtual Landscape</div>
+                    <div id="overlay-1" class="image_overlay image_overlay--blur">
+                        <div class="recap">
+                            <div class="image_titre"><u><i>Virtual Landscape</i></u></div>
+                            <div class="image_preview">
+                                <img class="desert" src="img/Desert_1.1.jpg">
+                            </div>
+                            <p class="image_description"> Ce projet consiste à créer un <br>
+                                dessin avec des element qui <br> change de place aléatoirement <br>
+                                avec le language Javascript.</p>
+                               <a class="btn" href="https://github.com/lenygerance/Virtual-Landscape"> <div class="arrow"></div>Allons-y</a>
+                        </div>
+
+                    </div>
+                </div>
+
+                <div class="slide" id="slide-2">
+                    <img class="image_img" src="img/omac.jpg" alt="">
+                    <div class="titre">O m a c</div>
+                    <div id="overlay-2" class="image_overlay image_overlay--blur">
+                        <div class="image_titre">L'O m a c </div>
+                        <p class="image_description"> est une association qui participe à la vie de quartier de la ville
+                            de Torcy. Pendant mon stage au près d'eux, j'ai hébergé et réalisé un site pour leur
+                            visiteur. <!--reformuler-->
+
+
+                        </p>
+                    </div>
+                </div>
+
+                <div class="slide" id="slide-3">
+                    <img class="image_img" src="img/springadventure.jpg" alt=""> <!--changer l'image ()-->
+                    <div class="titre">S p r i n g A d v e n t u r e</div>
+                    <div id="overlay-3" class="image_overlay image_overlay--blur">
+                        <div class="image_titre">S p r i n g A d v e n t u r e</div>
+                        <p class="image_description"> est un projet qui consiste à programmer avec springboot un jeu
+                            tour par tour jouable à partir d'un terminal</p>
+                    </div>
+                </div>
+
+                <div class="dots">
+                    <label for="radio-1" id="label-1"></label>
+                    <label for="radio-2" id="label-2"></label>
+                    <label for="radio-3" id="label-3"></label>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="veille">
+        <div class="boite2">
+            <h1>VEILLE TECHNOLOGIQUE</h1>
+            <div class="dropdown">
+                <button onclick="myFunction()" class="dropbtn"><i class="bi bi-info-lg"></i></button>
+                <div id="myDropdown" class="dropdown-content">
+                    <a href="#">La veille technologique consiste à s'informer en continu sur les nouveautés du secteur
+                        informatique, les inventions des concurrents ainsi que les nouvelles technologies et ce dans le
+                        but
+                        d'être le meilleur dans son domaine.</a>
+                </div>
+            </div>
+        </div>
+        <div class="cadre">
+            <div class="calendrier">
+                <div class="gauche">
+                    <p>Création du</p>
+                    <p>No-Code</p>
+                </div>
+                <div class="droite">
+                    <p>Août</p>
+                    <p>1960</p>
+                </div>
+            </div>
+
+            <!-- slider vertical -->
+
+            <div class="wrapper">
+                <div class="outer">
+                    <div class="card" style="--delay:-1;">
+                        <div class="contenu">
+                            <div class="img"><img src="img/slide_vertical-1.PNG" alt=""></div>
+                            <div class="details">
+                                <span class="name">Programmer est-il utile ?</span>
+                                <p>Aujourd'hui, la programmation n'as plus d'avenir ?</p>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.generation-nt.com/actualites/nvidia-jensen-huang-intelligence-artificielle-apprentissage-code-2044800">Go</a>
+                    </div>
+                    <div class="card" style="--delay:0;">
+                        <div class="contenu">
+                            <div class="img"><img src="img/slide_vertical0.PNG" alt=""></div>
+                            <div class="details">
+                                <span class="name">Codeurs au chomâge</span>
+                                <p>Plus de no-code, moins de developpeurs alors?</p>
+                            </div>
+                        </div>
+                        <a href="https://www.meria.com/blog/article/near">Go</a>
+                    </div>
+                    <div class="card" style="--delay:1;">
+                        <div class="contenu">
+                            <div class="img"><img src="img/slide_vertical1.PNG" alt=""></div>
+                            <div class="details">
+                                <span class="name">Les avantages du no-code</span>
+                                <p>Quelles sont les différences avec la programmation?</p>
+                            </div>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=pbr2EsrZkcY">Go</a>
+                    </div>
+                    <div class="card" style="--delay:2;">
+                        <div class="contenu">
+                            <div class="img"><img src="img/slide_vertical1.PNG" alt=""></div>
+                            <div class="details">
+                                <span class="name">Un futur sans code</span>
+                                <p>L'Intelligence Artificielle est une solution d'avenir</p>
+                            </div>
+                        </div>
+                        <a
+                            href="https://www.agencenocode.com/blog/un-avenir-sans-code-les-tendances-du-no-code-en-2024">Go</a>
+                    </div>
+                    <div class="card" style="--delay:2;">
+                        <div class="contenu">
+                            <div class="img"><img
+                                    src="https://branditechture.agency/brand-logos/wp-content/uploads/2022/06/Bubble-1024x768.png"
+                                    alt=""></div>
+                            <div class="details">
+                                <span class="name">Faire partie de l'avenir</span>
+                                <p>S'adapter au no-code de nos jours</p>
+                            </div>
+                        </div>
+                        <a href="https://www.youtube.com/watch?v=XjpyYtnAR0g">Go</a>
+                    </div>
+                </div>
+            </div>
+
+            <!--Fin slider vertical -->
+
+            <div class="calendrier">
+                <div class="gauche">
+                    <p>A</p>
+                    <p>ce jour</p>
+                </div>
+                <div class="droite">
+                    <p>Mai</p>
+                    <p>2024</p>
+                </div>
+            </div>
+        </div>
+
+        <h1 class="sujet">SUJET : LE "NO CODE"</h1>
+
+
+    </section>
+    <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
