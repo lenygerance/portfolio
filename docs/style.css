@@ -255,7 +255,7 @@ section.etude::after {
     z-index: 10;
     padding: 20px;
     backdrop-filter: blur(25px);
-    top: 50px;
+    top: 45px;
 }
 
 .box h3 {
